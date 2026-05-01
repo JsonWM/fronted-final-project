@@ -11,6 +11,9 @@ export default function Nav() {
       <Link to="/why-it-matters" className="text-sm font-medium text-slate-500 hover:text-emerald-600 transition-colors">
         Why save?
       </Link>
+      <Link to="/about" className="text-sm font-medium text-slate-500 hover:text-emerald-600 transition-colors">
+        About
+      </Link>
 
       <ThemeToggle />
     </nav>

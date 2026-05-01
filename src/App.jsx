@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 
 import WhyItMatters from './components/pages/WhyItMatters'
+import About from './components/pages/About';
 import Nav from './components/layout/Nav'
 import Hero from './components/hero/Hero'
 import Footer from './components/layout/Footer';
@@ -24,6 +25,7 @@ function App() {
 
           {/* Info Page */}
           <Route path="/why-it-matters" element={<WhyItMatters />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </main>
 
